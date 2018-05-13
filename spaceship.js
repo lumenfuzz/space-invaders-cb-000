@@ -1,11 +1,11 @@
 class Spaceship {
-  constructor(name, array, phasers, shields) {
+  constructor(name, crew, phasers, shields) {
     this.name = name;
     this.phasers = phasers;
     this.shields = shields;
     this.cloaked = false;
     this.warpDrive = "disengaged";
     this.phasersCharge = "uncharged";
-    this.docked = true
+    crew.length === 0 ? this.docked = true : this.docked = false
   }
 }
