@@ -1,6 +1,5 @@
 class CrewMember {
   constructor(position) {
-    this.position = position;
     this.currentShip = "Looking for a Rig";
     switch(position) {
       case "Pilot":
@@ -13,7 +12,7 @@ class CrewMember {
         this.chargePhasers = "had no effect"
         break;
       default:
-        null  
+        null
     }
   }
 }
