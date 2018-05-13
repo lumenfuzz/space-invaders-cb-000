@@ -4,7 +4,7 @@ class CrewMember {
     this.currentShip = "Looking for a Rig";
     switch(position) {
       case "Pilot":
-        this.engageWarpDrive = "had no effect"
+        this.engageWarpDrive = () => {return "had no effect"}
         break;
       case "Defender":
         this.setsInvisibility = "had no effect"
