@@ -4,7 +4,7 @@ class CrewMember {
     this.currentShip = "Looking for a Rig";
     this.engageWarpDrive = () => {return "had no effect"}
     this.setsInvisibility = () => {
-      if (this.currentShip != "Looking for a Rig") {
+      if (this.currentShip == "Looking for a Rig") {
         this.currentShip.cloaked = true
       }
 
