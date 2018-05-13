@@ -7,10 +7,10 @@ class CrewMember {
         this.engageWarpDrive = () => {return "had no effect"}
         break;
       case "Defender":
-        this.setsInvisibility = "had no effect"
+        this.setsInvisibility = () => {return "had no effect"}
         break;
       case "Gunner":
-        this.chargePhasers = "had no effect"
+        this.chargePhasers = () => {return "had no effect"}
         break;
       default:
         null
