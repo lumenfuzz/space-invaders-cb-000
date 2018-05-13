@@ -7,6 +7,6 @@ class Spaceship {
     this.warpDrive = "disengaged";
     this.phasersCharge = "uncharged";
     crew.length === 0 ? this.docked = true : this.docked = false
-    crew.forEach( function(e) { e.currentShip = this })
+    crew.forEach( (e) => { e.currentShip = this })
   }
 }
